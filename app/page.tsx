@@ -20,8 +20,9 @@ export default function Home() {
         />
       </div>
       <main className="flex-grow container mx-auto px-4 py-8">
-        <h1 className="text-2xl font-semibold mb-4">Bienvenue sur Recettes Faciles</h1>
-        <p>Commencez à explorer nos recettes simples et rapides pour tous les jours.</p>
+        <h1 className="text-2xl font-semibold mb-4">Des recettes pour Caro🐢</h1>
+        <p>Voici les armes à ta disposition pour une meilleure santé 💖 💖 💖 </p>
+        <p>Cette liste grandira avec le temps : </p>
         {/* Afficher les recettes ici */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {recettes.map(recette => (
