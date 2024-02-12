@@ -1,0 +1,87 @@
+{
+  "recettes": [
+    {
+      "id": 1,
+      "titre": "Salade César rapide",
+      "description": "Une salade césar classique avec une touche de rapidité, parfaite pour un déjeuner sur le pouce.",
+      "ingredients": [
+        {"nom": "Laitue romaine", "quantite": "1 tête"},
+        {"nom": "Croûtons", "quantite": "1 tasse"},
+        {"nom": "Parmesan", "quantite": "1/2 tasse"},
+        {"nom": "Anchois", "quantite": "6 filets"},
+        {"nom": "Vinaigrette César", "quantite": "1/4 tasse"}
+      ],
+      "tempsPreparation": "10 minutes",
+      "tempsCuisson": "0 minutes",
+      "instructions": [
+        "Lavez et hachez la laitue.",
+        "Mélangez la laitue avec les croûtons et le parmesan.",
+        "Ajoutez les anchois et la vinaigrette avant de servir."
+      ],
+      "imageURL": "https://assets.afcdn.com/recipe/20190704/94705_w648h414c1cx2336cy1552.webp",
+      "nutrition": {
+        "calories": "200kcal",
+        "proteines": "10g",
+        "carbohydrates": "20g",
+        "lipides": "10g"
+      }
+    },
+    {
+      "id": 2,
+      "titre": "Pâtes à l'ail et au parmesan",
+      "description": "Un plat de pâtes simple et exquis prêt en quelques minutes.",
+      "ingredients": [
+        {"nom": "Spaghetti", "quantite": "200g"},
+        {"nom": "Ail", "quantite": "3 gousses"},
+        {"nom": "Huile d'olive", "quantite": "2 cuillères à soupe"},
+        {"nom": "Parmesan râpé", "quantite": "1/4 tasse"},
+        {"nom": "Persil", "quantite": "1 cuillère à soupe"}
+      ],
+      "tempsPreparation": "5 minutes",
+      "tempsCuisson": "10 minutes",
+      "instructions": [
+        "Faites cuire les pâtes selon les instructions du paquet.",
+        "Faites revenir l'ail haché dans l'huile d'olive.",
+        "Mélangez les pâtes avec l'ail et l'huile d'olive, puis saupoudrez de parmesan et de persil."
+      ],
+      "imageURL": "https://files.meilleurduchef.com/mdc/photo/recette/spaghetti-ail/spaghetti-ail-640.jpg",
+      "nutrition": {
+        "calories": "450kcal",
+        "proteines": "15g",
+        "carbohydrates": "70g",
+        "lipides": "10g"
+      }
+    },
+    {
+      "id": 3,
+      "titre": "Omelette aux pommes de terre",
+      "description": "L'omelette aux pommes de terre, un plat réconfortant et savoureux qui marie la tendresse des pommes de terre râpées avec la délicatesse des œufs frais.",
+      "ingredients": [
+        {"nom": "Pomme de terre", "quantite": "2 grosses"},
+        {"nom": "Oeuf", "quantite": "6 oeufs"},
+        {"nom": "Persil", "quantite": "1/2 botte de persil"},
+        {"nom": "Huile d'olive vierge", "quantite": "3 cuillères à soupe"},
+        {"nom": "Ail", "quantite": "un peu"},
+        {"nom": "Poivre", "quantite": "un peu"},
+        {"nom": "Sel", "quantite": "1 pincée"}
+      ],
+      "tempsPreparation": "10 min.",
+      "tempsCuisson": "20 min.",
+      "instructions": [
+        "Ciseler le persil.",
+        "Peler et hacher l'ail.",
+        "Peler les pommes de terre, lavez-les et râpez-les avec une râpe à gros trous.",
+        "Dans un saladier, casser les œufs puis ajouter les pommes de terre râpées, le persil, l'ail, le sel, le poivre et battre le mélange avec une fourchette.",
+        "Faites chauffer une poêle avec de l'huile et versez-y le contenu du saladier.",
+        "Faites cuire à feu très doux pendant 10 minutes sans y toucher.",
+        "Retourner l'omelette et faites cuire l'autre face encore 10 minutes. Servez."],
+        "imageURL":"https://cooknbe-prod.s3.amazonaws.com/recipe/photo/recipe_000266.jpg",
+        "nutrition":{
+            "calories":"257,7 kcal",
+            "carbohydrates":"?",
+            "lipides":"14,9g",
+            "proteines":"11,2g"
+        }
+    }
+  ]
+}
