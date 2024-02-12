@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "La cuisine de caro'",
+  title: "La cuisine de caro",
   description: "Un guide pour que CARO PUISSE ENFIN SE FAIRE A MANGER",
   icons: '../public/caro-cook.png',
 };

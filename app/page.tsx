@@ -1,10 +1,12 @@
 import Image from "next/image";
 import Navbar from "../components/Navbar";
-import RecetteCard from "../components/RecetteCard"; // Assurez-vous d'avoir ce composant
+import RecetteCard from "../components/RecetteCard";
 import caro from '../public/caro-cook-white.png';
-import { recettes } from '../public/recipe.json'; // Importez vos données de recettes
+import recipeData from '../public/recipe.json'; // Importez vos données de recettes
 import Footer from "@/components/Footer";
 export default function Home() {
+  const { recettes } = recipeData;
+
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar/>
